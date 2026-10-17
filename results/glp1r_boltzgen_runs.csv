@@ -1,0 +1,5 @@
+run,target,hotspots,designs,passed_boltzgen_filters,designs_iptm_ge_0.5,best_iptm,best_ipsae,outcome
+1,"ECD only (101 residues)","V30,L32,T35,W39",100,47,17,0.62,0.23,"INVALID: all 100 binders overlap the helix bundle (median 139 atoms closer than 2.5 A)"
+2,"ECD only (chain R entered alone by mistake)","V30,L32,T35,W39",80,42,"about 20",0.58,"about 0.3","INVALID: median 195 clashing atoms; job settings showed targetChains = R only"
+3,"Full receptor (ECD + helix bundle, 3 chains)","V30,L32,T35,W39",80,9,20,0.67,0.45,"usable: 15 candidates kept (batch 1)"
+4,"Full receptor (ECD + helix bundle, 3 chains)","L32,W39,Y69,W91",80,3,16,0.67,0.45,"usable: 7 candidates kept (batch 2)"

@@ -1,0 +1,10 @@
+# keep design sequences and raw platform outputs out of the repo
+designs.csv
+*_upload.csv
+*.zip
+settings.json
+*.cif
+*.pdb
+out/
+.ipynb_checkpoints/
+__pycache__/
